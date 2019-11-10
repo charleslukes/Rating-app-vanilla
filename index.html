@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rating App</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Rating App
+      </h1>
+    </header>
+    <main>
+      <form>
+        <div>Add a link</div>
+        <label for="title">Title:</label>
+        <div>
+          <input type="tex" id="title" name="title" />
+        </div>
+        <label for="link">Link:</label>
+        <div>
+          <input type="text" id="link" name="link" />
+        </div>
+        <div class="btn">
+          <button type="submit">Submit Link</button>
+        </div>
+      </form>
+      <div class="all-articles"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
